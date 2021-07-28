@@ -17,7 +17,7 @@
     <!-- header start -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
+            <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -26,8 +26,14 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -63,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <div class="row panda-bg-info bg-gradient p-5 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
@@ -119,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="p-3 border panda-bg-info d-flex align-items-center justify-content-between rounded-3">
+                    <div class="p-3 border bg-info d-flex align-items-center justify-content-between rounded-3">
                         <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
